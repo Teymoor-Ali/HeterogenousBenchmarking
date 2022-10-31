@@ -1,0 +1,19 @@
+
+cublasSgemm test result:
+
+running with min_m_k_n: 2 max_m_k_n: 16384 repeats: 2
+allocating device variables
+float32: size 2 average: 0.00303722 s 
+float32: size 4 average: 6.656e-06 s 
+float32: size 8 average: 6.144e-06 s 
+float32: size 16 average: 5.632e-06 s 
+float32: size 32 average: 0.000148992 s 
+float32: size 64 average: 1.1264e-05 s 
+float32: size 128 average: 0.000265216 s 
+float32: size 256 average: 2.2992e-05 s 
+float32: size 512 average: 9.2688e-05 s 
+float32: size 1024 average: 0.000478144 s 
+float32: size 2048 average: 0.00303155 s 
+float32: size 4096 average: 0.0285804 s 
+float32: size 8192 average: 0.22861 s 
+float32: size 16384 average: 1.59598 s 
